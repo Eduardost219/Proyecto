@@ -8,10 +8,49 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link href="gustos.css" rel="stylesheet" />
-    <title>ESTUDIOS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>estudios</title>
   </head>
-  <body>
+  <body style="background-color: cornflowerblue;">
+
+    <header
+    style="
+      background-color: rgba(51, 143, 204, 0.747);
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    "
+  >
+    <div id="fotoID" class="fotoDiv fotoDiv--color">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPyGNr2qL63Sfugk2Z1-KBEwMGOfycBribew&usqp=CAU"
+        alt="Foto"
+        width="100px"
+        height="100px"
+       
+      />
+    </div>
+
+    <article class="infoArt">
+      <label style="font-family: Georgia, 'Times New Roman', Times, serif; font-weight: bolder;" id="NombreLabel" class="infoLabel">Nombre:</label>
+      <label style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; " id="NombreValvue" class="infoValvue">
+        Camilo Andres Leon Limas</label
+      >
+      <br />
+
+      <label style="font-weight: bolder;" id="EdadLabel" class="infoLabel"> Edad:</label>
+      <label id="EdadValvue" class="infoValvue"> 18 </label>
+
+      <br />
+
+      <label style="font-weight: bolder;" id="OcupacionLabel" class="infoLabel"> Ocupacion: </label>
+      <label id="OcupacionValvue" class="infoValvue"
+        >Ingenieria de Sistemas
+      </label>
+    </article>
+  </header>
+
     <div class="container">
       <div class="row">
         <div class="col-3"></div>
@@ -39,11 +78,24 @@
           </div>
           <div>
             <button>Guardar</button>
-            <button>Atras</button>
+            <button>
+              <a href="index.html" > Atrás </a>
+            </button>
           </div>
         </div>
         <div class="col-3"></div>
       </div>
     </div>
   </body>
+  
+  <footer>
+    <div style="float: right;" class="contenedor-icono">
+      <a href="https://www.facebook.com/"><i style="font-size: xx-large;"  class="bi bi-facebook"></i></a>
+      <a href="https://www.instagram.com/"><i style="font-size: xx-large; color: brown;"  class="bi bi-instagram"></i></a>
+      <a href="https://www.twitter.com/"><i style="font-size: xx-large; color: rgba(0, 255, 255, 0.863);"  class="bi bi-twitter"></i></a>
+      <a href="https://www.youtube.com/"><i style="font-size: xx-large; color: red;"  class="bi bi-youtube"></i></a>
+    </div>
+      
+  </footer>
+  
 </html>
